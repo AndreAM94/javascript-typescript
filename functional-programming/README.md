@@ -1,8 +1,8 @@
-# Miscellaneous
+# Functional Programming
 
 ## Contenuto
 
-Concetti/snippets generici
+Concetti/snippets relativi al paradigma di programmazione funzionale
 
 ## Startup
 
@@ -15,7 +15,7 @@ Concetti/snippets generici
 ### Soluzione 2
 
 * Aprire il terminale
-* cd in ./miscellaneous
+* cd in ./functiona-programming
 * Lanciare start.bat **nomeprogetto**
 
 ### Infos
