@@ -62,3 +62,20 @@ Concetti/snippets relativi al paradigma di programmazione funzionale
         </p>
         <p>
 </details>
+
+<details>
+    <summary>High order functions</summary>
+        <p>
+            Una funzione <strong>di ordine superiore</strong> è una funzione che prendi in input o restiuisce in output una funzione
+        </p>
+        <p>
+            La funzione passata in input è chiamata anche <strong>callback</strong>
+        </p>
+        <p>
+            Esempi di funzioni di ordine superiore built-in (ovvero messe a disposizione direttamente dallla specifica javascript, senza ulteriori dipendenze) sono le funzioni legate agli array come: map, filter, reduce, sort, foreach...
+        </p>
+        <p>
+            Permettono di scrivere codice più elegante e di spezzettarne meglio la logica, prestandosi bene alla <strong>composition</strong>
+        </p>
+        <p>
+</details>
