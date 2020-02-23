@@ -79,3 +79,20 @@ Concetti/snippets relativi al paradigma di programmazione funzionale
         </p>
         <p>
 </details>
+
+<details>
+    <summary>Immutability</summary>
+        <p>
+            Un valore è immutabile se una volta creato non può essere modificato 
+        </p>
+        <p>
+            I valori primitivi come anche le stringhe sono tutti esempi di valori immutabili, questo non vale per gli oggetti
+        </p>
+        <p>La parola chiave const applicata ad un oggetto non indica che esso sia immutabile, semplicemente che l'identificativo (nome della variabile) non può essere riassegnato
+        <p>
+            Il metodo Object.freeze permette di rendere immutabile un oggetto, ma solo in maniera superficiale
+        </p>
+        <p>
+            Il concetto di structural sharing utilizzato nel contesto dell'immutabilità permette di ottenere miglioramenti nelle performance; <a href="https://immutable-js.github.io/immutable-js/">Immutable.js</a> è una libreria creata specificatamente per questo scopo
+        </p>
+</details>
