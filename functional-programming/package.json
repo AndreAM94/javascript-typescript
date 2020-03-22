@@ -7,13 +7,15 @@
     "lib": "lib"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "gulp": "^4.0.2",
     "gulp-run": "^1.7.1",
     "immutable": "^4.0.0-rc.12",
     "yargs": "^15.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint */*.js"
   },
   "author": "",
   "license": "ISC"

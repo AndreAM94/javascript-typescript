@@ -1,6 +1,4 @@
-# javascript-typescript
-
-## Contenuto
+# Contenuto
 
 Snippets e progetti javascript/typescript
 

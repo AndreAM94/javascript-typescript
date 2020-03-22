@@ -17,14 +17,14 @@ for (let i = 0; i < arr1.length; i++) {
 console.log(arr2) // [ 2, 10, 20 ]
 
 // Sfruttando la funzione built-in Array.map (che è una funzione di ordine superiore) otteniamo un codice più snello e leggibile
-var arr1 = [1, 5, 10]
-var arr2 = arr1.map(function(value) {
+arr1 = [1, 5, 10]
+arr2 = arr1.map(function(value) {
     return value * 2;
 })
 console.log(arr2) // [ 2, 10, 20 ]
 
 // O in maniera più coincisa usando le funzioni a freccia
 
-var arr1 = [1, 5, 10]
-var arr2 = arr1.map(value => value * 2);
+arr1 = [1, 5, 10]
+arr2 = arr1.map(value => value * 2);
 console.log(arr2) // [ 2, 10, 20 ]
