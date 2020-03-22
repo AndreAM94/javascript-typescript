@@ -1,7 +1,7 @@
-var add = require("./lib/sum")
-var curry = require("./lib/curry").curry;
-var uncurriedSum = add.uncurriedSum;
-var curriedSum3 = add.curriedSum3;
+var currying = require('./../lib/currying');
+var curry = currying.curry;
+var uncurriedSum = currying.uncurriedSum;
+var curriedSum3 = currying.curriedSum3;
 
 // uncurriedSum è una funzione di arietà 3 che somma i 3 numeri in input
 console.log(uncurriedSum(2, 3, 5));

@@ -6,17 +6,11 @@ Concetti/snippets relativi al paradigma di programmazione funzionale
 
 ## Startup
 
-### Soluzione 1
+Installare la cli con il comando **npm i -g gulp-cli**, riavviare il terminale
 
-* Aprire il terminale
-* cd nel progetto di interesse
-* node index.js
-
-### Soluzione 2
-
-* Aprire il terminale
-* cd in ./functiona-programming
-* Lanciare start.bat **nomeprogetto**
+* Aprire il terminale terminale
+* cd nel progetto con gulpfile.js
+* gulp --run=**nomeprogetto**
 
 ### Infos
 

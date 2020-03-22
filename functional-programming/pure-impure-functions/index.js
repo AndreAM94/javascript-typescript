@@ -1,5 +1,5 @@
-var impureArrayAdd = require("./lib/utils").impureArrayAdd;
-var pureArrayAdd = require("./lib/utils").pureArrayAdd;
+var impureArrayAdd = require('./../lib/pure-impure-functions').impureArrayAdd;
+var pureArrayAdd = require('./../lib/pure-impure-functions').pureArrayAdd;
 
 var log = console.log;
 
@@ -12,7 +12,7 @@ log(Math.random());
 // l'array dogs viene modificato direttamente dalla funzione
 
 var dogs = [];
-log(impureArrayAdd(dogs, "Puppy", 7)); // [ { name: 'Puppy', age: 7 } ]
+log(impureArrayAdd(dogs, 'Puppy', 7)); // [ { name: 'Puppy', age: 7 } ]
 log(dogs) // [ { name: 'Puppy', age: 7 } ]
 
 // La versione pura non modifichere lo stato di un elemento al di fuori del suo scope
@@ -20,5 +20,5 @@ log(dogs) // [ { name: 'Puppy', age: 7 } ]
 // contente l'elemento che ho aggiunto
 
 dogs = [];
-log(pureArrayAdd(dogs, "Lucky", 1)) // [ { name: 'Lucky', age: 1 } ]
+log(pureArrayAdd(dogs, 'Lucky', 1)) // [ { name: 'Lucky', age: 1 } ]
 log(dogs) // []
